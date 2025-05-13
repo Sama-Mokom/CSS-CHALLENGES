@@ -1,0 +1,54 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-word: #5134ff;
+}
+
+body {
+    background: cornflowerblue;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+h1::after {
+    background: var(--bg-word);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 4px;
+    content: "";
+    animation: 8s swap linear infinite;
+}
+
+@keyframes swap {
+    0% {
+        content: "God";
+    }
+    20% {
+        content: "Anime";
+    }
+    40% {
+        content: "Music";
+    }
+    60% {
+        content: "Coding";
+    }
+    80% {
+        content: "My Saviour";
+    }
+    100% {
+        content: "God";
+    }
+}

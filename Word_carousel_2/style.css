@@ -1,0 +1,82 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-word: #ff007f;
+    --bg-body: #ffc0cb;
+}
+
+body {
+    font-family: 'Satisfy', cursive;
+    background-color: var(--bg-body);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+h1::after {
+    background: var(--bg-word);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 4px;
+    content: "";
+    animation: 15s swap linear infinite;
+}
+
+@keyframes swap {
+    0% {
+        content: "Beautiful";
+        background: #ff69b4;
+    }
+    10% {
+        content: "Smart";
+        background: #ff80bf;
+    }
+    20% {
+        content: "Funny";
+        background: #ff409f;
+    }
+    30% {
+        content: "Kind";
+        background: #e30b5d;
+    }
+    40% {
+        content: "Strong";
+        background: #ffb6c1;
+    }
+    50% {
+        content: "Pretty";
+        background: #fe828c;
+    }
+    60% {
+        content: "Caring";
+        background: #fa72ec;
+    }
+    70% {
+        content: "Gracious";
+        background:#fe82ca;
+    }
+    80% {
+        content: "Wonderfully Made";
+        background: #ff00ff;
+    }
+    90% {
+        content: "Special";
+        background: #ff0080;
+    }
+    100% {
+        content: "Beautiful";
+        background: #ff40ff;
+    }
+}

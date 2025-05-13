@@ -1,0 +1,67 @@
+:root{
+    --font-main: "Noto Sans" , sans-serif;
+    --bg-main: #131417;
+    --bg-card: #1e1f26;
+    --bg-stats: #131417;
+    --username: #b7bbc8;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    color: var(--username);
+    font-family: var(--font-main);
+    background-color: var(--bg-main);
+}
+
+p, h3{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.card{
+    max-width: 300px;
+    background-color: var(--bg-card);
+    justify-self: center;
+    padding: 2%;
+    border-radius: 2%;
+
+}
+.card:hover .card-stats{
+    display: contents;
+}
+
+.card-thumbnail img{
+    max-width: 100%;
+    padding-bottom: 2%;
+}
+
+.card-avatar img{
+    height: 50px;
+    border-radius: 15%;
+}
+
+.card-body{
+    display: flex;
+}
+.card-details{
+    margin-left: 2%;
+}
+.card-stats{
+    display: none;
+}
+.card-stats li{
+    display: inline-block;
+    background: var(--bg-stats);
+    padding: .25em .5em;
+    margin-right: .5em;
+    border-radius: 5px;
+}

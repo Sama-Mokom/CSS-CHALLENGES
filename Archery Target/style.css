@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.target{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.black {
+    background-color: black;
+    height: 10cm;
+    width: 10cm;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue {
+    background-color: blue;
+    height: 8cm;
+    width: 8cm;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    background-color: red;
+    height: 6cm;
+    width: 6cm;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 3cm;
+    width: 3cm;
+    border-radius: 50%;
+}
