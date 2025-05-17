@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #0000;
+    color: #c9d1d9;
+}
+
+:root{
+    --font-main: 'Noto Sana', sans-serif;
+    --main-bg: #000;
+    --profile-bg: #0d1117;
+    --profile-color: #c9d1d9;
+    --profile-image-border: #2e343b;
+    --username-font-color: #8b949e;
+    --username-font-weight: 400;
+    --btn-color: #c9d1d9;
+    --btn-bg-hover: #30363d;
+    --btn-border-hover: #8c949e;
+}
+
+.profile-container{
+    max-height: 100%vph;
+    justify-self: center;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+    background: var(--profile-bg);
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border:1px solid var(--profile-image-border);
+}
+.profile-details {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 80%;
+}
